@@ -1,0 +1,28 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+  padding: 3rem 1.5rem;
+
+  h1 {
+    font-size: $font-xxl;
+    font-weight: 400;
+    line-height: 2rem;
+  }
+
+  h4 {
+    margin-top: 1rem;
+    font-size: $font-med;
+    font-weight: 400;
+  }
+
+  p {
+    margin-top: 2rem;
+    font-size: $font-lg;
+    line-height: 1.75rem;
+    max-width: 68.75rem;
+  }
+}

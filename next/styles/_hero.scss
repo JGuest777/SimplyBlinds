@@ -1,0 +1,18 @@
+.hero {
+  width: 100%;
+  min-height: 50vh;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-family: $logoFont;
+    color: #2a9fa6;
+  }
+
+  h4 {
+    margin-top: 1rem;
+  }
+}

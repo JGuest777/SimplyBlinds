@@ -1,5 +1,4 @@
 <!-- TODO: Layout Header/Footer -->
-<!-- test -->
 <!-- TODO: Desktop Nav -->
 <!-- TODO: Mobile Menu -->
 <!-- TODO: Landing Page -->

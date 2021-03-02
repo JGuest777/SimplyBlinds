@@ -1,3 +1,10 @@
-body {
-	background-color: red;
-}
+@import 'variables';
+@import 'mixins';
+@import 'globals';
+
+@import 'header';
+@import 'hero';
+@import 'why';
+@import 'products';
+@import 'testimonials';
+@import 'footer';

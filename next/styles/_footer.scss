@@ -1,0 +1,15 @@
+// "Sticks" footer to bottom of content wrapper (below)
+.footer {
+  background-color: #e5e5e5;
+  width: 100%;
+  position: absolute;
+  height: 250px;
+  bottom: 1;
+  left: 0;
+}
+
+// pushes footer to bottom of vp if content doesn't expand past vp
+// subtracts vp-height from height of footer
+.content {
+  min-height: calc(100vh - 21.5rem);
+}
