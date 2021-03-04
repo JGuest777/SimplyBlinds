@@ -2,14 +2,14 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: transparent;
+  background-color: #2a9fa6;
   height: 7.5rem;
   padding-left: 5rem;
   padding-right: 5rem;
 
   &__links {
     a {
-      color: #000;
+      color: #fff;
       font-size: $font-lg;
       font-weight: 400;
       transition: all 100ms ease-in-out;

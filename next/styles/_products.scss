@@ -1,23 +1,53 @@
 .products {
-  min-height: 50vh;
-  padding: 2rem;
+  padding: 3rem 1.5rem;
 
   &__item {
-    text-align: center;
-  }
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  img {
-    width: 75%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
-    transition: all 200ms ease-in-out;
+    &-overlay {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+      transition: all 200ms ease-in-out;
 
-    &:hover {
-      transform: scale(1.009);
-      cursor: pointer;
-      box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+      &.shades {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url(https://images.unsplash.com/photo-1600667414357-ea929a57b0ae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
+            no-repeat center center;
+      }
+      &.blinds {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url(https://images.unsplash.com/photo-1528502043423-9149c2023296?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80)
+            no-repeat center center;
+      }
+      &.shutters {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url(https://images.unsplash.com/photo-1492943070567-a3717f648f9b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80)
+            no-repeat center center;
+      }
+
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.009);
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+        filter: blur(0);
+      }
+    }
+    &-text {
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
   }
 }
