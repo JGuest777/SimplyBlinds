@@ -1,7 +1,12 @@
 .hero {
+  padding: 1.5rem;
   width: 100%;
   min-height: 50vh;
-  background-color: pink;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(https://scontent.ftpa1-1.fna.fbcdn.net/v/t1.0-9/141283187_3288398117931546_4820849773956199981_o.jpg?_nc_cat=105&ccb=3&_nc_sid=8bfeb9&_nc_ohc=5keQ2shrzZAAX8InQCA&_nc_ht=scontent.ftpa1-1.fna&oh=d35c155f976d247e58164ebad8adcc74&oe=60669491)
+      no-repeat center bottom;
+  background-attachment: fixed;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,5 +19,6 @@
 
   h4 {
     margin-top: 1rem;
+    color: #2a9fa6;
   }
 }

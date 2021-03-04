@@ -11,5 +11,5 @@
 // pushes footer to bottom of vp if content doesn't expand past vp
 // subtracts vp-height from height of footer
 .content {
-  min-height: calc(100vh - 21.5rem);
+  min-height: calc(100vh - 15.625rem);
 }
